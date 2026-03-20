@@ -1,7 +1,7 @@
 using System.Security.Cryptography;
 using System.Text.Json;
 using System.Text.Json.Serialization;
-using IdentityModel;
+using Duende.IdentityModel;
 using Microsoft.IdentityModel.Tokens;
 // ReSharper disable InconsistentNaming - Justification: matching json/jwk standards.
 #pragma warning disable CS8618 //- nullable nagging disabled here - Justification: default json/jwk contract.
